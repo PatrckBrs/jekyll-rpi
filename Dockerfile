@@ -16,4 +16,5 @@ RUN apk del build-base zlib-dev ruby-dev readline-dev \
 
 EXPOSE 4000
  
-ENTRYPOINT ["jekyll"]
+#ENTRYPOINT ["jekyll"]
+CMD jekyll serve -w
