@@ -1,3 +1,3 @@
 # jekyll-rpi
 
-[![Build Status](https://travis-ci.org/PatrckBrs/ansible-rpi-cluster.svg?branch=Dev)](https://travis-ci.org/PatrckBrs/ansible-rpi-cluster)
+[![Build Status](http://jenkins.dev.codexatomos.org/buildStatus/icon?job=docker-rpi/Jekyll-rpi/jekyll-rpi)](http://jenkins.dev.codexatomos.org/job/docker-rpi/job/Jekyll-rpi/job/jekyll-rpi/)
