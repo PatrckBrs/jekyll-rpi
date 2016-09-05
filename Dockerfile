@@ -10,4 +10,10 @@ RUN apk update && \
 			
 RUN ruby -v && gem install jekyll && mkdir /opt && cd /opt && jekyll new jekyll_codex
 
-CMD ["jekyll serve -w"]
+RUN apk del build-base zlib-dev ruby-dev readline-dev \
+        yaml-dev libffi-dev libxml2-dev \
+ 	&& apk search --update
+
+EXPOSE 4000
+ 
+ENTRYPOINT ["jekyll"]
